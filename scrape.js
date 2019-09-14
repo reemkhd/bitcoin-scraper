@@ -7,7 +7,7 @@ const figlet = require('figlet')
 const maxstreams = 8
 const dataDir = 'data'
 
-const market = 'bitstampUSD'
+const market = 'krakenUSD'
 
 const dates = {
   from: {
