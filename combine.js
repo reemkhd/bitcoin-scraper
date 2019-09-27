@@ -33,7 +33,7 @@ fs.readdir(dataDir, (err, list) => {
 		let time
 
 		try {
-			date = new Date(file.split('bitstampUSD-')[1].split('.json')[0])
+			date = new Date(file.split('krakenUSD-')[1].split('.json')[0])
 			time = date.getTime()
 		} catch (err) {
 			return
