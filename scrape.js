@@ -27,7 +27,7 @@ const baseApiUrl = 'http://bitcoincharts.com/charts/chart.json?'
 
 // Full parms: m=bitstampUSD&SubmitButton=Draw&r=60&i=1-min&c=1&s=2011-09-14&e=2011-09-14&Prev=&Next=&t=S&b=&a1=&m1=10&a2=&m2=25&x=0&i1=&i2=&i3=&i4=&v=1&cv=0&ps=0&l=0&p=0&
 const formatApiUrl = (market, date) => {
-	const apiUrl = `${baseApiUrl}m=${market}&SubmitButton=Draw&r=1&i=1-day&c=1&s=${date}&e=${date}&Prev=&Next=&t=S&b=&a1=&m1=10&a2=&m2=11&x=0&i1=&i2=&i3=&i4=&v=1&cv=0&ps=0&l=0&p=0&`
+	const apiUrl = `${baseApiUrl}m=${market}&SubmitButton=Draw&r=1&i=1-hr&c=1&s=${date}&e=${date}&Prev=&Next=&t=S&b=&a1=&m1=10&a2=&m2=11&x=0&i1=&i2=&i3=&i4=&v=1&cv=0&ps=0&l=0&p=0&`
 	return apiUrl
 }
 
