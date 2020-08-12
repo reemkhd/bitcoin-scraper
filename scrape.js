@@ -34,9 +34,9 @@ const market = "bitstampUSD";
 
 const dates = {
   from: {
-    year: 2011,
-    month: 10,
-    day: 14,
+    year: 2013,
+    month: 01,
+    day: 01,
   },
 
   //    from: {
@@ -47,8 +47,8 @@ const dates = {
 
   to: {
     year: 2020,
-    month: 05,
-    day: 31,
+    month: 08,
+    day: 11,
   },
 };
 
