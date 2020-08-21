@@ -11,7 +11,7 @@ const market = 'krakenUSD'
 
 const dates = {
   from: {
-  	year: 2013,
+  	year: 2017,
   	month: 01,
   	day: 01
   },
@@ -19,7 +19,7 @@ const dates = {
   to: {
   	year: 2020,
   	month: 08,
-  	day: 11
+  	day: 20
   },
 }
 
